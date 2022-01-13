@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaukriDekho - A Job Portal for Daily wages workers</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Styles.css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+
+    <!-- Font Styles -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!-- <div class="backgroundimag"></div> -->
+    <div class="super-container">
+        <div class="in-super-container">
+            <div class="container">
+
+                <div class="header">
+                    <!--Navbar -->
+                    <nav class="mb-1 navbar navbar-expand-lg navbar-dark orange lighten-1">
+                        <a class="navbar-brand nav-flex-icons" href="#">
+                            <img id="nav-logo" src="./Images/nlogo1.png" alt="NaukriDekho">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent-555" aria-controls="navbarSupportedContent-555"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+                            <ul class="navbar-nav mr-auto">
+
+                                <!-- Search box -->
+                                <form class="form-inline" id="search-box">
+                                    <div class="md-form my-0">
+                                        <input class="form-control mr-sm-2" type="text" placeholder="Search"
+                                            aria-label="Search">
+                                    </div>
+                                </form>
+                                <div class="float-right"></div>
+                                <li class="nav-item active">
+                                    <a id="home" class="nav-link custom-nav" href="#home"><strong>Home</strong>
+                                        <span class="sr-only"></span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="about" class="nav-link custom-nav" href="#about"><strong>About Us</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="login" class="nav-link custom-nav" href="login.html"><strong>Login</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="register" class="nav-link custom-nav" href="register.html"><strong>Register</strong></a>
+                                </li>
+                            </ul>
+                            <!-- <ul class="navbar-nav ml-auto nav-flex-icons">
+                                <li class="nav-item avatar">
+                                    <a class="nav-link p-0" href="#">
+                                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg"
+                                            class="rounded-circle z-depth-0" alt="avatar image" height="35">
+                                    </a>
+                                </li>
+                            </ul> -->
+                        </div>
+                    </nav>
+                    <!--/.Navbar -->
+
+                </div>
+                <!--header end-->
+
+                <div class="main bg-dark">
+
+                    <div class="center">
+                        <h2><B>REGISTER</B></h2>
+                        <form method="post">
+
+
+                            <div class="txt_field">
+                                <input type="text" required>
+                                <span></span>
+                                <label>Full Name</label>
+                            </div>
+
+
+                            <div class="txt_field">
+                                <input type="email" required>
+                                <span></span>
+                                <!-- It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang -->
+                                <label>Email</label>
+                            </div>
+
+
+
+                            <!-- <div class="txt_field">
+                                    <input type="text" required>
+                                    <span></span>
+                                    <label >Username</label>
+                                    </div> -->
+
+
+
+                            <div class="txt_field">
+                                <input type="password" required>
+                                <span></span>
+                                <label>Password</label>
+                            </div>
+
+
+                            <div class="txt_field">
+                                <input type="text" required>
+                                <span></span>
+                                <label>Contact No.</label>
+                            </div>
+
+                            <div class="class">
+                                <div class="containers">
+                                    <label>Gender :</label>
+                                    <br>
+                                    &nbsp;&nbsp;&nbsp; &nbsp;
+
+                                    <input type="radio" name="Gender" value="male">
+                                    <label>Male</label>
+                                    &nbsp; &nbsp;
+
+                                    <input type="radio" name="Gender" value="female">
+                                    <label>Female</label>
+                                    &nbsp; &nbsp;
+
+                                    <input type="radio" name="Gender" value="other">
+                                    <label>Other</label>
+                                </div>
+                            </div>
+
+                            <div class="class">
+                                <div class="containers">
+
+                                    <label>Who are you looking for?</label>
+                                    <br>
+
+                                    <input type="radio" name="job" value="Jobseeker">
+                                    <label>Jobseeker</label>
+                                    &nbsp; &nbsp; &nbsp;
+
+                                    <input type="radio" name="job" value="employer">
+                                    <label>Employer</label>
+                                    &nbsp; &nbsp; &nbsp;
+
+                                    <input type="radio" name="job" value="both">
+                                    <label>Both</label>
+                                    <br>
+                                </div>
+                            </div>
+
+
+
+                            <div class="TermsAndConditions">
+                                <input type="checkbox"> I have read the <a href="#"> Terms And Conditions</a>
+                            </div>
+
+
+
+                            <!-- <input type="submit" value="Register Now"> -->
+                            <button type="submit" value="Register" class="register_btn">
+                                Register Now
+
+                            </button>
+                            <!-- <p>Already have an account?</p> -->
+
+
+                        </form>
+                    </div>
+
+                </div>
+                <!--main end-->
+
+                <div class="footer">
+
+
+                </div>
+                <!--footer end-->
+
+            </div>
+            <!--container end-->
+        </div>
+        <!-- End In Super Container -->
+    </div>
+    <!--super-contaner end-->
+</body>
+
+</html>

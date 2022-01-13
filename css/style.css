@@ -1,0 +1,228 @@
+body{
+    background-color: black;
+}
+.header{
+    background-color: black;
+    /* position: fixed;
+    top: 0;
+     */
+}
+/*
+.main{
+    margin-top: 80px;
+} */
+
+.super-container{
+    background-color: black;
+    /* background: linear-gradient(120deg,#36837d, #adadad);   */
+    /* color: darkkhaki; */
+    max-width:  100%;
+    /* height: %; */
+    /* background-image: url(./../Images/tool.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(4px); */
+    /* -webkit-filter: blur(4px) */
+    background-size: cover;
+}
+
+.in-super-container{
+    background-color: black;
+    /* height: 700px; */
+}
+
+#search-box{
+    margin: 20px;
+    width: 430px;
+}
+
+#nav-logo{
+    margin-top: -11Px;
+    margin-left: -30px;
+    width: 150px;
+    height: 70px;
+}
+
+#custom-nav{
+    color: rgb(248, 204, 7);
+    /* margin-top: 10px; */
+    margin-left: 50px;
+}
+
+.custom-nav:hover{
+    color: white;
+}
+
+/* .float-right{
+    width: 40px;
+} */
+
+.apl-job-post div a{
+    font-size: 25px;
+}
+.flex{
+    /* background-image: url("../Images/worker1.png"); */
+    position: absolute;
+    right: 0px;
+    width: 1370px;
+    height: 550px;
+    margin: -4px;
+}
+
+#flex-img{
+    height: 500px;
+    padding: 12px;
+}
+
+.brand-name{
+    color: rgb(248, 204, 7);
+    font-size: 120px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.tag-line{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: -40px;
+    margin-left: 160px;
+}
+
+.apply-btn{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 160px;
+    border-radius: 8px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(248, 204, 7);
+    border-color: aliceblue;
+    border-width: 0px;
+}
+.apply-btn:hover{
+    background-color: rgb(248, 246, 140);
+}
+
+.login{
+    margin-right: 10%;
+}
+
+#login-img{
+    width: 100%;
+    height: 600px;
+    
+}
+
+.downtoheader{
+    margin: -70px;
+}
+
+#login-canvas{
+    /* width: auto;
+    height: 500px;
+    background-color: rgb(214, 196, 196); */
+    background-image: url("../Images/tool.jpg");
+    height: 100vh!important
+    /* padding-bottom: -100px; */
+}
+
+/* .login-margin{
+    margin-left: -75px;
+    margin-right: -90px;
+} */
+
+.login-logo{
+    width: 200px;
+}
+
+.login-margin-up{
+    margin: -30px;
+}
+
+.login-margin-down{
+    margin: -60px;
+}
+
+#registerform{
+    /* margin-bottom: 300 px; */
+}
+
+#register-canvas{
+    background-image: url("../Images/tool.jpg");
+    /* padding-bottom: -100px; */
+    /* margin-top: 100px; */
+}
+
+#submit-btn{
+    /* color: white; */
+    margin-top: -60px;
+}
+
+.main{
+    align-items: center;
+    margin-left: 30%;
+}
+
+.job{
+    width: 400px;
+    align-items: center;
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    margin-left: 30%;
+}
+
+.job-item{
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.slider{
+    width: 100%;
+    /* height: 400px; */
+}
+
+img{
+    height: auto;
+}
+
+#card-down-margin{
+    margin: 1%;
+}
+
+.footer{
+    background-color: rgb(53, 52, 52);
+    /* margin-top: 50px; */
+}
+
+
+/* Post Job CSS Start*/
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+  }
+  .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+  }
+/* Post Job CSS End */
+
+.p-5{
+    padding: 2.3rem!important;
+}

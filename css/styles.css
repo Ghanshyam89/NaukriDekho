@@ -1,0 +1,20 @@
+#nav {
+    margin: auto;
+}
+
+#float-right {
+    float: right;
+    margin-left: 50%;
+}
+
+.flex{
+    background-color: black;
+    height: 500px;
+}
+
+h1{
+    font-size: 100px;
+    padding-top: 200px;
+    padding-left: 120px;
+    color: rgb(238, 238, 49);
+}

@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+  /* background: linear-gradient(120deg,#838236, #adadad);   */
+  height: 100vh;
+  /* 100vh=100% of the parent's element height. */
+  overflow: hidden;
+  /* With the hidden value,
+   the overflow is clipped,
+    and the rest of the content is hidden: You can use the overflow property when you want to have better control of the layout. */
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  height: 90%;
+  background: #292b2c;
+  /* opacity: .3%; */
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  /* border: 2px solid white; */
+}
+
+.center h2 {
+  text-align: center;
+  padding: 0 0 10px;
+  /* color: rgb(248, 204, 7); */
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.center form {
+  padding: 0 30px;
+  /* means to apply 0px top/bottom and 40px left/right. padding*/
+  box-sizing: border-box;
+  /* border-box makes sure that the content, padding, and borders fit in this number. */
+}
+
+form .txt_field {
+  /* txt includes input and paragraph content */
+  position: relative;
+  /* in short adjusting the space */
+  border-bottom: 1px solid white;
+  margin: 30px 0;
+  /* means to apply 0px top/bottom and 40px left/right.*/
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  /* it disappears the border of input */
+  background: none;
+  outline: none;
+  color: aliceblue;
+}
+
+.txt_field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  /* color: #adadad; */
+  color: white;
+
+  transform: translatey(-50%);
+  /* it shifts the label above  */
+  font-size: 16px;
+  pointer-events: none;
+  /* none prevents all click, state and cursor options on the specified HTML element. */
+
+  transition: 0.5s;
+  /* it is time taken for transition */
+}
+
+.txt_field span::before {
+  /* The ::before selector inserts something before the content of each selected element(s). Use the content property to specify the content to insert. */
+
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  height: 2px;
+  /* background: #f3ef07;  */
+  background: rgb(248, 204, 7);
+
+  /* the blue line property */
+  width: 0%;
+  transition: 0.5s;
+  /* cuz of this the width gets transit from 0 to 100% while clicking  and that's why the widht has been done 0%*/
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+  top: -5px;
+  /* the label moves upwards */
+  color: rgb(248, 204, 7);
+  /* while clicking the label the label becomes blue while writing input */
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before {
+  width: 100%;
+}
+
+.class label {
+  color: #666666;
+}
+
+input[type="radio"] {
+  /* this works on radio buttons */
+  margin: 15px 0;
+}
+
+.containers {
+  margin: 10px 0;
+  /* margin-left: px; */
+}
+
+.containers label {
+  /* color: #666666; */
+  color: white;
+  margin-bottom: -10px;
+}
+
+.register_btn {
+  /* this works on register */
+  width: 100%;
+  /* height: 40px; */
+
+  /* background: rgb(248, 204, 7); */
+  background-color: #292b2c;
+  border-radius: 5px;
+  padding: 10px;
+
+  border: 2px solid white;
+
+  font-size: 18px;
+  color: white;
+  /* the written part becomes white and outline too */
+  font-weight: 700;
+  /* it decides how thick the written part will be */
+  cursor: pointer;
+  /* the finger comes */
+  outline: none;
+
+  margin: 30px 0;
+}
+
+.register_btn:hover {
+  border-color: white;
+  transition: 0.1s;
+  /* it highlights the register while clicking it by making its size big */
+}
+
+.TermsAndConditions {
+  /* text-align: center; */
+  font-size: 16px;
+  /* color: #666666; */
+  color: white;
+}
+
+.TermsAndConditions a {
+  /* whateve content is written in a  */
+  color: rgb(108, 192, 224);
+  text-decoration: none;
+}
+
+.TermsAndConditions a:hover {
+  text-decoration: underline;
+  /* while clicking underline comes */
+}
+
+/* Register Page */
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f093fb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to bottom right,
+    rgba(240, 147, 251, 1),
+    rgba(245, 87, 108, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to bottom right,
+    rgba(240, 147, 251, 1),
+    rgba(245, 87, 108, 1)
+  );
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.font-color {
+  color: white;
+}
+
+/* End of Register Page */
