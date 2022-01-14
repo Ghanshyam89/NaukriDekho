@@ -145,16 +145,16 @@ function validate_register() {
        
     }
 
-        function phoneVal(phone) {
-                var digit = /^[0-9]+$/;
+        // function phoneVal(phone) {
+        //         var digit = /^[0-9]+$/;
 
-                if (phone.value.length == 10 && phone.value.match(digit)) {
-                    return true;
-                }
-                else {
-                    alert("Please enter Valid mobile Number!");
-                    return false;
-                }
-            }
+        //         if (phone.value.length == 10 && phone.value.match(digit)) {
+        //             return true;
+        //         }
+        //         else {
+        //             alert("Please enter Valid mobile Number!");
+        //             return false;
+        //         }
+        //     }
 
 }
