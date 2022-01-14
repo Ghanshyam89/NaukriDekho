@@ -1,8 +1,11 @@
 # NaukriDekho - A Job Portal For Household/Daily Wage Workers.
+
+![NaukriDekho](https://user-images.githubusercontent.com/63035436/149517566-c35d6ce7-51fa-4f83-be31-0c992eca05c8.png)
+
 NaukriDekho – A Job Portal for Household/Daily Wage Workers. It is a Web based Application through which a job-seeker can get any kind of job as per his/her need and a job-provider can post the job.  We have used HTML, CSS and JavaScript for Front-end and PHP and MySQL for Back-end.
 
 ### Please have  a look at Demonstration Video:-
-#### https://lnkd.in/ghqAbkhs
+https://youtu.be/8cbRscE4Bz8
 
 ## Problem Statement:-  
 In today's world, it is very difficult for the daily wage earners to earn and fulfill their basic needs and requirements because many workers are unable to find jobs due to various reasons like lockdown due to Covid, illiteracy, etc. The money paid to daily wage earners is so low that survival is becoming difficult for them day by day. One of the major problem faced by them is that they have very less job opportunities. Daily wage earners in a city face a major problem of  not finding work.   
