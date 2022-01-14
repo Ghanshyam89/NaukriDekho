@@ -1,4 +1,4 @@
-# NaukriDekhoo
+# NaukriDekho - A Job Portal For Household/Daily Wage Workers.
 We have used HTML, CSS and JavaScript for Frontend and PHP and MySQL for Backend.
 
 ​ Problem Statement:-  
