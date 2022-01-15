@@ -8,7 +8,8 @@ NaukriDekho – A Job Portal for Household/Daily Wage Workers. It is a Web based
 https://youtu.be/8cbRscE4Bz8
 
 ## Problem Statement:-  
-In today's world, it is very difficult for the daily wage earners to earn and fulfill their basic needs and requirements because many workers are unable to find jobs due to various reasons like lockdown due to Covid, illiteracy, etc. The money paid to daily wage earners is so low that survival is becoming difficult for them day by day. One of the major problem faced by them is that they have very less job opportunities. Daily wage earners in a city face a major problem of  not finding work.   
+In today's world, it is very difficult for the daily wage earners to earn and fulfill their basic needs and requirements because many workers are unable to find jobs due to various reasons like lockdown due to Covid, illiteracy, etc. The money paid to daily wage earners is so low that survival is becoming difficult for them day by day. One of the major problem faced by them is that they have very less job opportunities. Daily wage earners in a city face a major problem of  not finding work.
+
 
 ## Solution:-  
 We have developed an Online Job Portal named NaukriDekho - A Job Portal for Household/Daily Wage Workers: 
@@ -39,6 +40,18 @@ We have developed an Online Job Portal named NaukriDekho - A Job Portal for Hous
 ![image](https://user-images.githubusercontent.com/63035436/149514850-0e16af6c-4c5e-46c7-ad33-0f0e30c1e841.png)
 <br><br>
 
+### Jobs
+![IMG-20220115-WA0015](https://user-images.githubusercontent.com/63035436/149629046-8aff13ca-ae79-43fe-8fc6-5feb83f0a9d6.jpg)
+<br><br>
+
+### Post a Job
+![IMG-20220115-WA0016](https://user-images.githubusercontent.com/63035436/149629059-c1f17e02-2d2f-4c21-a3ef-e223bf3c6360.jpg)
+<br><br>
+
+### Apply for Job
+![IMG-20220115-WA0017](https://user-images.githubusercontent.com/63035436/149629066-106aa763-4481-4d5e-90d2-f0b33a38503f.jpg)
+<br><br>
+
 ### Details of Job-seeker
 ![image](https://user-images.githubusercontent.com/63035436/149514995-2e8859c6-ccad-4137-88f7-2f30eb4e4896.png)
 <br><br>
@@ -50,6 +63,7 @@ We have developed an Online Job Portal named NaukriDekho - A Job Portal for Hous
 ### Details of Posted Job
 ![image](https://user-images.githubusercontent.com/63035436/149515103-debb9daa-26b0-4d7b-a4a5-3df92cb21c61.png)
 <br><br>
+
 
 ## Conclusion
 Due to enhancement in digitalization everything is now being converted into online solution. But to find online support of finding workers nearest to your location is still not available, so our developed NaukriDekho site will resolve this problem and give online solution to find workers nearest to the user.
