@@ -52,15 +52,15 @@ We have developed an Online Job Portal named NaukriDekho - A Job Portal for Hous
 ![IMG-20220115-WA0017](https://user-images.githubusercontent.com/63035436/149629066-106aa763-4481-4d5e-90d2-f0b33a38503f.jpg)
 <br><br>
 
-### Details of Job-seeker
+### Details of Job-seeker [Database]
 ![image](https://user-images.githubusercontent.com/63035436/149514995-2e8859c6-ccad-4137-88f7-2f30eb4e4896.png)
 <br><br>
 
-### Details of All User
+### Details of All User [Database]
 ![image](https://user-images.githubusercontent.com/63035436/149515051-46e95221-3bee-4c96-b233-81b8c7aa253a.png)
 <br><br>
 
-### Details of Posted Job
+### Details of Posted Job [Database]
 ![image](https://user-images.githubusercontent.com/63035436/149515103-debb9daa-26b0-4d7b-a4a5-3df92cb21c61.png)
 <br><br>
 
