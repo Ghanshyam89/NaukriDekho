@@ -71,3 +71,8 @@ Here are advantages of the application.
 #### Availability of information at one platform: User can find and upload their interest shops nearest to the user’s location with basic information.
 #### Contact number of workers and job seeker are available on the site, so user can call to each other and ask for help.
 
+## Our Team
+Ankit Vishwakarma @ankit-708
+Aiman Asif @aimanasif27
+Geetanjali Kushwaha
+Ghanshyam Prajapati @Ghanshyam89
